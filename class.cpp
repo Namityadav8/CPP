@@ -2,32 +2,33 @@
 using namespace std ;
 class namit{
 public:
-    int age ;
-    int size;
+    int age  ;
+    string name ;
 
     int getage(){
-        return age ;
-
+        return age;
+    }
+    string getname(){
+        return name ;
     }
 
-    int getsize(){
-        return size ;
+    void setage(int a){
+        age =a;
     }
 
-    void setage(int a ){
-        age = a;
+    void setname(string b){
+        name = b;
     }
-
-    void setsize(int b){
-        size = b ;
-    }
-
+   
 
 };
 int main(){
-    namit yadav;
-    yadav.setage(18);
-    cout<<"namit's age is "<<yadav.getage()<<endl;
+    namit details ;
+    details.setage(18);
+    details.setname("Namit Yadav");
+    cout<<details.getname()<<endl;
+    cout<<details.getage()<<endl;
+ 
     
 
     
