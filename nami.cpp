@@ -13,6 +13,7 @@ public:
 void takeInput(student& studentObj) {
     std::cout << "Enter student ID: ";
     std::cin >> studentObj.id;
+    //
     
     std::cout << "Enter student name: ";
     std::cin >> studentObj.name;
