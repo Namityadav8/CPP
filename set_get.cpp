@@ -3,7 +3,7 @@ using namespace std ;
 class namit{
 public:
     int age  ;
-    string name ;
+    string name ;              //setters and getters function 
 
     int getage(){
         return age;
@@ -19,11 +19,15 @@ public:
     void setname(string b){
         name = b;
     }
-   
+    
+    namit(){
+        cout<<"hi there "<<endl;     //contructor called at the creation of the object 
+    }
 
 };
 int main(){
     namit details ;
+    
     details.setage(18);
     details.setname("Namit Yadav");
     cout<<details.getname()<<endl;
