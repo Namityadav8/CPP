@@ -3,7 +3,10 @@ using namespace std ;
 class namit{
 public:
     int age  ;
-    string name ;              //setters and getters function 
+    string name ; 
+    void gf(){
+        cout<<"kesar";
+    }             
 
     int getage(){
         return age;
@@ -32,6 +35,7 @@ int main(){
     details.setname("Namit Yadav");
     cout<<details.getname()<<endl;
     cout<<details.getage()<<endl;
+    details.gf(); 
  
     
 
