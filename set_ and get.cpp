@@ -4,10 +4,7 @@ class namit{
 public:
     int age  ;
     string name ; 
-    void gf(){
-        cout<<"kesar";
-    }             
-
+    
     int getage(){
         return age;
     }
@@ -24,7 +21,7 @@ public:
     }
     
     namit(){
-        cout<<"hi there "<<endl;     //contructor called at the creation of the object 
+        cout<<"hi there "<<endl;     
     }
 
 };
