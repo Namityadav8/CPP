@@ -16,4 +16,6 @@ int main(){
         cout<<"ha yahi h";
         break;
     }
-}
+
+    // cout<< "The value of a is "<<a<<" and n is "<<n<<endl;
+} 
