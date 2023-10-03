@@ -6,7 +6,7 @@ int main(){
     int c = var(2);
     cout<<c<<endl;
 }
-/*global and local variables */
+/*global and local variabcleles */
 int var(int a){
     return a;
 
