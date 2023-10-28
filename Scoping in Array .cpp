@@ -14,8 +14,8 @@ void updateArray(int arr[],int n){
 int main(){
 
     int arr[3]={1,2,3};
-    updateArray(arr,3);          //value in main function also get changed as it gives address to update function 
-    for(int i=0;i<3;i++){        //function with array me original array me changes hote h 
+    updateArray(arr,3);         
+    for(int i=0;i<3;i++){       
         cout<<arr[i]<<" ";
     }
     return 0; 
