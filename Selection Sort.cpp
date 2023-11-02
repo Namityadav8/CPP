@@ -1,3 +1,4 @@
+// consider the first element to be min and then check if anyone is smaller than it and if there is then swap it.
 #include<iostream>
 #include<vector>
 using namespace std; 
